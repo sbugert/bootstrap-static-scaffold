@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-static-scaffold",
+  "version": "0.0.1",
+  "authors": [
+    "Simon Bugert <simon.bugert@googlemail.com>"
+  ],
+  "description": "starting point for static website development",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "jquery": "~2.0.3"
+  }
+}

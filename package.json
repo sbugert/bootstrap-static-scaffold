@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-static-scaffold",
+  "version": "0.0.1",
+  "main": "grunt",
+  "author": "Simon Bugert <simon.bugert@googlemail.com>",
+  "contributors": [
+    {
+      "name": "sbugert"
+    }
+  ],
+  "description": "starting point for static website development",
+  "devDependencies": {
+    "grunt-usemin": "~0.1.12",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-htmlmin": "~0.1.3",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-rev": "~0.1.0",
+    "st": "~0.2.1"
+  }
+}
