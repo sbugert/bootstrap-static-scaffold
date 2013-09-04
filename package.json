@@ -6,6 +6,9 @@
   "contributors": [
     {
       "name": "sbugert"
+    },
+    {
+      "name": "dkolba"
     }
   ],
   "description": "starting point for static website development",
