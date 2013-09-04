@@ -7,7 +7,7 @@ A perfect starting point for static website development!
 2. Use `npm install` to install grunt tasks.
 
 
-`grunt init` will copy jQuery and bootstap files to /src.
+`grunt init` will copy jQuery and Bootstap files to /src.
 
 `grunt` runs your HTML through usemin, cssmin, uglify, rev and htmlmin.
 
