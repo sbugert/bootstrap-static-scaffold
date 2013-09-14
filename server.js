@@ -1,7 +1,7 @@
 var st = require('st')
 var http = require('http')
 
-var mount = st({ path: __dirname + '/dist', url: '/', index: 'index.html'})
+var mount = st({ path: __dirname + '/src', url: '/', index: 'index.html'})
 http.createServer(function(req, res) {
   var stHandled = mount(req, res);
   if (stHandled)
