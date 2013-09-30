@@ -61,6 +61,17 @@ module.exports = function(grunt) {
       options: {
         dirs: ['dist']
       }
+    },
+
+    imagemin: {
+      dynamic: {
+        files: [{
+          expand: true,                 // Enable dynamic expansion
+          cwd: 'src/',                  // Src matches are relative to this path
+          src: ['**/*.{png,jpg,gif}'],  // Actual patterns to match
+          dest: 'dist/'                 // Destination path prefix
+        }]
+      }
     }
 
   });
@@ -73,6 +84,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-rev');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('default', ['clean:dist',
                                  'copy:main',
@@ -81,7 +93,8 @@ module.exports = function(grunt) {
                                  'cssmin',
                                  'uglify',
                                  'rev',
-                                 'usemin']);
+                                 'usemin',
+                                 'imagemin']);
   grunt.registerTask('init', ['clean:init', 'copy:init']);
 };
 
